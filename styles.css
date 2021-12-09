@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #222;
+  background-color: #ddd;
+}
+
+
+.btn {
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    padding: 2rem 4rem;
+    cursor: pointer;
+}
+
+header {
+    min-height: 35vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.number {
+    background-color: #222;
+    color: #fff;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+
+    position: absolute;
+    bottom: 0;
+}
+
+main {
+    display: flex;
+    min-height: 65vh;
+}
+
+.choose__number {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.between {
+    background-color: black;
+    color: #ddd;
+    min-width: 14rem;
+    padding: 3rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    background-color: rgb(0, 20, 58);
+    font-size: 2rem;
+    padding: 3rem 10rem;
+}
+
+.all__score {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greet {
+    font-size: 2rem;
+}
+
+.score, .high__score {
+    font-size: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+}
+
